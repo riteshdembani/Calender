@@ -1,0 +1,12 @@
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+},
+"Button": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#FF0000",
+	backgroundColor: 'NONE',
+	backgroundImage: 'NONE',
+}  

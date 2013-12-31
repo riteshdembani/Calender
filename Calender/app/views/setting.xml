@@ -1,0 +1,10 @@
+<Alloy>
+	<NavigationWindow id="container" platform="ios" >
+         <Window id="win3" title="Settings" backgroundColor="white">
+         	 <RightNavButton>
+                 <Button onClick="closeSettingWindow">Done</Button>
+            </RightNavButton>
+            <Label id="label">Hello, World</Label>
+         </Window>
+    </NavigationWindow> 
+</Alloy>

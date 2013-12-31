@@ -1,0 +1,4 @@
+
+function closeSettingWindow(){
+    $.container.close();
+}

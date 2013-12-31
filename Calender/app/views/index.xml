@@ -1,0 +1,22 @@
+<Alloy>
+   <Window backgroundColor="white" >	
+	<NavigationWindow id="container" platform="ios">
+      <Window title="Calenders" id="win1" backgroundColor="white">
+		   <Label id="label">Hello, World</Label>
+		  
+		   <Toolbar platform="ios" bottom="0" borderTop="true" borderBottom="false">
+            <!-- The Items tag sets the Toolbar.items property. -->
+            <Items>
+                <Button id="todayBtn" title="Today" />
+                <FlexSpace/>
+                <Button id="calenderBtn" title="Calenders"   />
+                <FlexSpace/>
+                <Button id="inboxBtn" title="Inbox" onClick="doClick" />
+            </Items>
+            <!-- Place additional views for the Toolbar here. -->
+        </Toolbar>
+		  
+   	  </Window>
+    </NavigationWindow>
+    </Window>	  
+</Alloy>
